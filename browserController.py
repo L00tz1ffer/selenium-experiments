@@ -76,7 +76,7 @@ def typeQuery (inputField, input, timeframe):
         calculateTimeFrameMs(timeframe)
 
 def getDriver():
-    driver = webdriver.Chrome("D:/chromedriver.exe")
+    driver = webdriver.Chrome("chromedriver.exe")
     driver.delete_all_cookies()
     time.sleep(1)
     return driver
