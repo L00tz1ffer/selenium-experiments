@@ -11,9 +11,6 @@ def searchByGoogle(driver, sQuery, timeframe):
 def searchByDuckDuckGo(driver, sQuery, timeframe):
     performSearch(driver, "ddg", sQuery, timeframe)
 
-
-
-
 def performSearch(driver, sEngine, sQuery, timeframe):
 
 
